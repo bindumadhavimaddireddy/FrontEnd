@@ -1,0 +1,32 @@
+.teams-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.teams-wrapper{
+    flex-basis:33%;
+    border:1px solid #c5c5c5;
+    border-radius:5px;
+    padding:1.4rem;
+}
+.teams-wrapper p,button{
+    padding-bottom:1rem;
+}
+.title-para{
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.5;
+    display: block;
+}
+.title-id-para{
+    font-size:1.15rem;
+    font-weight: bold;
+    line-height: 1.5;
+    display: block;
+}
+.team-description{
+    font-size: 1.15rem;
+    color: #999999;
+    line-height: 1.5;
+}

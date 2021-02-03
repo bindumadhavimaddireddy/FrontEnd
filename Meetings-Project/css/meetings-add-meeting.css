@@ -1,0 +1,42 @@
+.date-select{
+    width:100%;
+    
+}
+.search-criteria-header{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.search-criteria-wrapper{
+    border:1px solid #c5c5c5;
+    border-radius: 5px;
+    padding:1.15rem 1.5rem;
+}
+.search-criteria-wrapper p,button, div{
+    padding-bottom: 1rem;
+}
+
+.date-para{
+    font-size:1.25rem;
+    font-weight: 600;
+    display: inline-block;
+}
+.time-para{
+    display: inline-block;
+    line-height: 1.25;
+}
+.excuse-btn{
+    color:white;
+    border-radius: 5px;
+    padding:8px 8px;
+    border:0;
+    font-size:1.05rem;
+    background-color: #dc3545;
+}
+.members-select{
+    padding-left: 10px;
+    border-radius: 5px;
+    width:9.5rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border:1px solid #d1c6c6;
+}

@@ -1,0 +1,95 @@
+.navbar-main{
+    position:fixed;
+    left:0px;
+    top:0px;
+    width:100%;
+    background-color: rgb(248,249,250)
+}
+.container{
+    max-width: 1280px;
+    width: 90%;
+    margin:0 auto;
+}
+.nav-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display:flex;
+    color: #999999;
+}
+.nav-list li{
+    display: inline;
+}
+.nav-list a{
+    display: inline-block;
+    padding:10px 10px;
+    font-size:1rem;
+    text-decoration: none;
+    color: #999999;
+    
+}
+.nav-list p{
+    text-align:center;  
+}
+.link-active {
+    background-color: #c5c5c5;
+    color: black;   
+}
+
+.nav-list-side a{
+   display: inline-block;
+   font-size: 1rem;
+   text-decoration: none;
+   color: #999999;
+}
+
+.list-unstyled{
+    list-style-type: none;
+}
+.text-decoration-none a{
+   text-decoration: none;
+}
+
+.d-inline-block{
+    display:inline-block
+}
+.doc-color{
+    color:#73cbd3;
+}
+h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+h2{
+    font-size:1.25rem;
+    font-weight:bold;
+    
+}
+hr{
+    background-color: #C5C5C5;
+    
+}
+.my-1{
+    margin-top:1rem;
+    margin-bottom:0.5rem;
+}
+.my-3{
+    margin-top: 1.25rem;
+   
+}
+.my-5{
+    margin-top:2.2rem;
+    margin-bottom: 1rem;
+}
+.f-bold{
+    font-weight: bold;
+}
+.day-name{
+    font-size: 1rem;
+    font-weight: bold;
+    color:#C5C5C5;
+    
+}

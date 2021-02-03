@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descrition" content="This is Our meeting application">
+    <title>Calender</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/calender-page1.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/meetings-search.css">
+    <link rel="stylesheet" href="css/meetings-add-meeting.css">
+</head>
+<body>
+    <nav class=navbar-main>
+        <div class="container nav-wrapper">
+            <div >
+                <ul class=" nav-list">
+                    <li>
+                        <a href="" >Calender</a>
+                    </li>
+                    <li>
+                        <a href="" class="link-active">Meetings</a>
+                    </li>
+                    <li>
+                        <a href="">Teams</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-list d-inline-block">
+                <ul>
+                    <li>Hello</li>
+                    <li class="doc-color"><strong>jane.doe@example.com!</strong></li>
+                    <li><a href="">Logout</a></li>
+                </ul>
+            </div>
+       </div>
+    </nav>
+
+    <main>
+        <section class="container">
+             <header class="my-5">
+                 <h1>Meetings</h1>
+             </header>
+             <hr>
+             <div class="my-3 links-div" >
+                 <ul>
+                     <li><a href="" class="meeting-links meeting-link-active">Filter/Search meetings</a></li>
+                     <li><a href="" class=" meeting-links">Add a meeting</a></li>
+                 </ul>
+             </div>
+             <hr/>
+             <div class=" meeting-main-div">
+                <div class="meeting-heading-div">
+                    <p>Add a new meeting</p>
+                </div>
+                <hr/>
+                <div class="meeting-section-div">
+                    <form>
+                    <p>Date</p>
+                    <div>
+                      <select name="date" id="date" class="date-select">
+                          <option>ALL</option>
+                          <option>PAST</option>
+                          <option>TODAY</option>
+                          <option>UPCOMING</option>
+                      </select>
+                    </div>
+                    
+                    <p>Search for</p>
+                    <div>
+                        <textarea name="Search-for" id="Search-for" placeholder="Search using which describe the meeting" class="form-input description-textarea"></textarea>
+                    </div>
+                    
+                    <button type="submit" onclick="" class="add-meeting-btn">Search</button>
+                    </form>
+                 </div>
+             </div>
+             <div>
+                 <header class="my-5 search-criteria-header">
+                     <p>Meetings matching search criteria</p>
+                 </header>
+                 <hr>
+                 <div class="my-3 search-criteria-wrapper">
+                    <div class="search-criteria-div">
+                    
+                    <p class=" d-inline-block date-para"><time date="2020-09-12">12 September 2020</time></p>
+                    <p class=" d-inline-block time-para">
+                        <time>06:00</time>-<time>07:00</time>
+                    </p>
+                    
+                    <p>Project Kickoff</p>
+                     <button class="excuse-btn">Excuse yourself</button>
+                    </div>
+                    <hr/>
+                    <div>
+                        <p class="d-inline-block f-bold">Attendees:</p>
+                        <p class="d-inline-block">mark@example.comjane@example.com</p>
+                        <div>
+                            <select name="" id="" class="members-select">
+                                <option>Select member</option>
+                                <option>john@example.com</option>
+                                <option>jane@example.com</option>
+                                <option>mark@example.com</option>
+                            </select>
+                            <button class="add-meeting-btn">Add</button>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="my-3 search-criteria-wrapper">
+                    <div class="search-criteria-div">
+                    
+                    <p class=" d-inline-block date-para"><time date="2020-09-12">12 September 2020</time></p>
+                    <p class=" d-inline-block time-para">
+                        <time>09:00</time>-<time>10:30</time>
+                    </p>
+                    
+                    <p>AWS architecture</p>
+                     <button class="excuse-btn">Excuse yourself</button>
+                    </div>
+                    <hr/>
+                    <div>
+                        <p class="d-inline-block f-bold">Attendees:</p>
+                        <p class="d-inline-block">john@example.comjane@example.com</p>
+                        <div>
+                            <select name="" id="" class="members-select">
+                                <option>Select member</option>
+                                <option>john@example.com</option>
+                                <option>jane@example.com</option>
+                                <option>mark@example.com</option>
+                            </select>
+                            <button class="add-meeting-btn">Add</button>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+             
+        </section>
+    </main>
+</body>
+</html>
